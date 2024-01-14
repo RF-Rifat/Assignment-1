@@ -1,4 +1,40 @@
+import { useEffect } from "react";
+import { useState } from "react";
+
 const Table = () => {
+  const [data, setData] = useState([]);
+
+  const [loading, setLoading] = useState(true);
+
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+
+        const response = await fetch("/data.json");
+
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const result = await response.json();
+
+        setData(result);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+    
+  console.log(data)
+  if (loading) {
+    return <p>Loading...</p>;
+  }
   return (
     <section className="py-24 lg:pt-[120px] lg:pb-28">
       <div className="container">
@@ -180,6 +216,6 @@ const Table = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Table
+export default Table;

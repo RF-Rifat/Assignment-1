@@ -1,0 +1,140 @@
+{
+  "classes": [
+    {
+      "className": "Class One",
+      "students": [
+        {
+          "id": 1,
+          "name": "Alice Johnson",
+          "grade": "B",
+          "percentage": "85%",
+          "image": "alice.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Bob Miller",
+          "grade": "A-",
+          "percentage": "92%",
+          "image": "bob.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Charlie Davis",
+          "grade": "C+",
+          "percentage": "78%",
+          "image": "charlie.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Diana Smith",
+          "grade": "A-",
+          "percentage": "90%",
+          "image": "diana.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Edward Johnson",
+          "grade": "B",
+          "percentage": "85%",
+          "image": "edward.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Fiona Brown",
+          "grade": "B+",
+          "percentage": "88%",
+          "image": "fiona.jpg"
+        },
+        {
+          "id": 7,
+          "name": "George Wilson",
+          "grade": "C-",
+          "percentage": "72%",
+          "image": "george.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Hannah Davis",
+          "grade": "A",
+          "percentage": "95%",
+          "image": "hannah.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Ian Martinez",
+          "grade": "C+",
+          "percentage": "79%",
+          "image": "ian.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Diana Smith",
+          "grade": "A-",
+          "percentage": "90%",
+          "image": "diana.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Edward Johnson",
+          "grade": "B",
+          "percentage": "85%",
+          "image": "edward.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Fiona Brown",
+          "grade": "B+",
+          "percentage": "88%",
+          "image": "fiona.jpg"
+        },
+        {
+          "id": 7,
+          "name": "George Wilson",
+          "grade": "C-",
+          "percentage": "72%",
+          "image": "george.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Hannah Davis",
+          "grade": "A",
+          "percentage": "95%",
+          "image": "hannah.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Ian Martinez",
+          "grade": "C+",
+          "percentage": "79%",
+          "image": "ian.jpg"
+        }
+      ]
+    },
+    {
+      "className": "Class Two",
+      "students": [
+        {
+          "id": 1,
+          "name": "David Wilson",
+          "grade": "A",
+          "percentage": "95%",
+          "image": "david.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Emma White",
+          "grade": "B+",
+          "percentage": "88%",
+          "image": "emma.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Frank Adams",
+          "grade": "A-",
+          "percentage": "92%",
+          "image": "frank.jpg"
+        }
+      ]
+    }
+  ]
+}
