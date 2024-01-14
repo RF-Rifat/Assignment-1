@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Class1 from "./Class1";
-import Class2 from "./Class2";
+
 
 const Table = () => {
   const [data, setData] = useState([]);
@@ -34,6 +34,7 @@ const Table = () => {
   }, []);
 
   console.log(error);
+  console.log(data.classes);
 
   if (loading) {
     return <p>Loading...</p>;
@@ -99,10 +100,11 @@ const Table = () => {
               </tr>
             </thead>
             <tbody>
-              {/* class two */}
-              <Class1 />
-              {/* class two */}
-              <Class2 />
+              {/* class table */}
+              {data?.classes.map((item) => (
+                <Class1 key={item.className} item={item} />
+              ))}
+
             </tbody>
           </table>
         </div>
